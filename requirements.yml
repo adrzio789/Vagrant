@@ -1,8 +1,4 @@
-- name: New project CI/CD
-  hosts: all
-  connection: local
-  become: true
-
+---
 roles:
   - name: geerlingguy.docker
     version: 4.1.3
