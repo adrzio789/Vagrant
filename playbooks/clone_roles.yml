@@ -14,5 +14,5 @@
     - name: Git checkout
       git:
         repo: "{{ git_repository }}"
-        dest: "/etc/ansible/roles/"
+        dest: "/etc/ansible/roles"
         version: "{{ git_branch }}"
